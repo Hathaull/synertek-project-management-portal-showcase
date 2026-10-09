@@ -26,7 +26,7 @@ MongoDB was used as the main database. Since the project data has a hierarchical
 
 The diagram below shows the portal’s architecture and how requests move between the frontend, backend API, and MongoDB database.
 
-<img width="700" alt="Synertek Portal Architecture" src="https://github.com/user-attachments/assets/0a590fae-2761-4c1b-a726-dbf283e79b9a">
+<img width="700" alt="Synertek Portal Architecture" src="https://github.com/user-attachments/assets/ad3776e5-7040-4427-80cc-c0bc3ef45528">
 
 ## Database Design
 
