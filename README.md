@@ -6,7 +6,7 @@
 
 For this project, we built a web portal to help manage the commissioning of projects in the commercial building environment. The main goal was to give project owners and admins one place to communicate, track progress, and work through project checklists.
 
-The portal also gives admins, project owners, and users a central place to view and manage project information. Instead of having everything spread across different places, the application keeps project data organized within one system.
+The portal also gives admins, project owners, and users a central place to view and manage project information. Instead of having everything spread across different places, the application keeps project data organized within one system. Systems, equipment, checklists, sections, and tasks can all be managed through the same application.
 
 ## Technical Details
 
@@ -21,6 +21,12 @@ The backend was built with Node.js and Express.js. We used Express REST API rout
 ### Database
 
 MongoDB was used as the main database. Since the project data has a hierarchical structure, MongoDB worked well for storing the different pieces of information used throughout the portal.
+
+## Architecture
+
+The diagram below shows the portal’s architecture and how requests move between the frontend, backend API, and MongoDB database.
+
+<img width="700" alt="Synertek Portal Architecture" src="https://github.com/user-attachments/assets/0a590fae-2761-4c1b-a726-dbf283e79b9a">
 
 ## Database Design
 
@@ -43,6 +49,4 @@ One of the harder parts of the project was learning several new technologies whi
 
 We also had to make sure the application continued to match what the client actually needed. Regular communication and project demonstrations helped us check our progress and make sure we were still moving in the right direction.
 
-## Conclusion
 
-The final portal gives admins, project owners, and users one place to organize and track information related to building automation projects. Systems, equipment, checklists, sections, and tasks can all be managed through the same application, making the project information easier to create, manage, and retrieve.
