@@ -22,14 +22,6 @@ The backend was built with Node.js and Express.js. We used Express REST API rout
 
 MongoDB was used as the main database. Since the project data has a hierarchical structure, MongoDB worked well for storing the different pieces of information used throughout the portal.
 
-## Architecture
-
-The diagram below shows the portal’s architecture and how requests move between the frontend, backend API, and MongoDB database.
-
-<p align="center">
-  <img width="600" alt="Synertek Portal Architecture" src="https://github.com/user-attachments/assets/ad3776e5-7040-4427-80cc-c0bc3ef45528">
-</p>
-
 ## Database Design
 
 The database was organized around several main collections:
@@ -40,6 +32,14 @@ The database was organized around several main collections:
 - **Issues Collection:** Stores issues that are identified within projects.
 - **Equipment Collection:** Stores equipment information and related project data.
 - **Checklists Collection:** Stores checklists connected to equipment and project tasks.
+
+## Architecture
+
+The diagram below shows the portal’s architecture and how requests move between the frontend, backend API, and MongoDB database.
+
+<p align="center">
+  <img width="600" alt="Synertek Portal Architecture" src="https://github.com/user-attachments/assets/ad3776e5-7040-4427-80cc-c0bc3ef45528">
+</p>
 
 ## Version Control
 
